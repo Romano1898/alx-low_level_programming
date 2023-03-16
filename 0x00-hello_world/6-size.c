@@ -13,9 +13,9 @@ float floatType;
 double doubleType;
 char charType;
 
-printf("Size of int\n", sizeof(intType));
-printf("Size of float\n", sizeof(floatType));
-printf("Size of double\n", sizeof(doubleType));
-printf("Size of char\n", sizeof(charType));
+printf("Size of a char: %lu \n", sizeof(intType));
+printf("Size of float %lu \n", sizeof(floatType));
+printf("Size of double %lu \n", sizeof(doubleType));
+printf("Size of char %lu \n", sizeof(charType));
  return (0);
 }
