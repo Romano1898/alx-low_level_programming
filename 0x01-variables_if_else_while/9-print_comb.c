@@ -8,7 +8,7 @@
 int main(void)
 {
 int al;
-for (al = 0; al <= 9; ++al)
+for (al = 0; al <= 9; al++)
 {
 putchar('0' + al);
 putchar(',');
