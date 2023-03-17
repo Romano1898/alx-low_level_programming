@@ -12,6 +12,7 @@ char al;
 for (al = 'a'; al <= 'z'; ++al)
 {
 putchar(al);
+putchar(' ');
 }
 return (0);
 }
