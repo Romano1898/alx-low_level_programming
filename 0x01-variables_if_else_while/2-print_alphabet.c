@@ -13,6 +13,6 @@ for (al = 'a'; al <= 'z'; ++al)
 {
 putchar(al);
 }
-putchar(' ');
+putchar('\n');
 return (0);
 }
