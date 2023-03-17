@@ -8,12 +8,16 @@
 int main(void)
 {
 int al;
-for (al = 0; al <= 8; al++)
+for (al = 0; al <= 9; al++)
 {
-putchar('0' + al);
+putchar((al % 10) + '0');
+if (al == 9)
+{
+continue;
+}
 putchar(',');
 putchar(' ');
 }
-putchar('9' + ' ');
+putchar('\n');
 return (0);
 }
