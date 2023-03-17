@@ -14,6 +14,6 @@ putchar('0' + al);
 putchar(',');
 putchar(' ');
 }
-putchar('9'+ 32);
+putchar('9' + ' ');
 return (0);
 }
