@@ -20,7 +20,7 @@ if (div > 5)
 {
 printf("Last digit of %d is %d and is greater than 5\n", n, div);
 }
-if (div < 6 && div > 0)
+if (div < 6 && div != 0)
 {
 printf("Last digit of %d is %d and is less than 6 and not 0\n", n, div);
 }
