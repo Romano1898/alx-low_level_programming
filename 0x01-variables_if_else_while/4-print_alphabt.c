@@ -12,7 +12,7 @@ char al;
 
 for (al = 'a'; al <= 'z'; al++)
 {
-if (al != 'e' || al != 'q')
+if (al != 'e' && al != 'q')
 {
 putchar(al);
 }
