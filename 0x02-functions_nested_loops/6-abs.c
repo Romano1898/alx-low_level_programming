@@ -18,5 +18,5 @@ else
 int f = -1 * n;
 _putchar(f);
 }
-return (0);
 }
+return (0);
