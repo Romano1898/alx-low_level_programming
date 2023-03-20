@@ -13,13 +13,10 @@ int f = n % 10;
 if (f < 0)
 {
 int m = -1 * f;
-_putchar(m);
-_putchar(m);
+return (mm);
 }
 else
 {
-_putchar(f);
-_putchar(f);
+return (ff);
 }
-return (0);
 }
