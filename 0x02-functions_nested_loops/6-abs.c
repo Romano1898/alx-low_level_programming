@@ -3,7 +3,7 @@
 /**
 * _abs - Prints absolute value of a number
 *
-* Return: Always 0 (Success)
+* Return: Absolute value
 *@n: Number to be checked
 */
 
@@ -11,12 +11,11 @@ int _abs(int n)
 {
 if (n >= 0)
 {
-_putchar(n);
+return(n);
 }
 else
 {
-int f = -1 * n;
-_putchar(f);
+  return(-n);
 }
 }
-return (0);
+
