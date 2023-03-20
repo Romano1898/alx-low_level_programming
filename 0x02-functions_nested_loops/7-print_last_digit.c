@@ -14,9 +14,11 @@ if (f < 0)
 {
 int m = -1 * f;
 return (m);
+return (m);
 }
 else
 {
+return (f);
 return (f);
 }
 }
