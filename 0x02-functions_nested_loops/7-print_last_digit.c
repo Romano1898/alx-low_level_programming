@@ -15,11 +15,10 @@ if (f < 0)
 int m = -1 * f;
 _putchar(m);
 return (m);
-
 }
 else
 {
-_putchar(m);
+_putchar(f);
 return (f);
 }
 }
