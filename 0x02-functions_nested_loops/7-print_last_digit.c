@@ -14,11 +14,12 @@ if (f < 0)
 {
 int m = -1 * f;
 _putchar(m);
-return (m);
+_putchar(m);
 }
 else
 {
 _putchar(f);
-return (f);
+_putchar(f);
 }
+return (0);
 }
