@@ -5,7 +5,7 @@
 *
 * Return: Always 0 (Success)
 */
-print_alphabet(char)
+void print_alphabet(void)
 {
 for (char al = 'a'; al <= 'z'; ++al)
 {
