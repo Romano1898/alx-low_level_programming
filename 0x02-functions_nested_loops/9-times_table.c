@@ -13,35 +13,34 @@ for (b = 0; b <= 9; b++)
 {
 c = a * b;
 d = c + b;
- if ((c <= 9) & (d > 9))
-{
-_putchar('0' + (c));
-_putchar(',');
-_putchar(' ');
-}
-else if (c <= 9 && b == 9)
-{
-_putchar('0' + (c));
-}
-else
+if (c <= 9)
 {
 _putchar('0' + (c));
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
-}
- if ((c > 9) & (b == 9))
+if (c <= 9 && d > 9)
 {
-_putchar('0' + (c / 10));
-_putchar('0' + (c % 10));
+_putchar('0' + (c));
+_putchar(',');
+_putchar(' ');
 }
-else
+if (c <= 9 && b == 9)
+{
+_putchar('0' + (c));
+}
+}
+if (c > 9 & b != 9)
 {
 _putchar('0' + (c / 10));
 _putchar('0' + (c % 10));
 _putchar(',');
 _putchar(' ');
 }
+else
+{
+_putchar('0' + (c / 10));
+_putchar('0' + (c % 10));
 }
 }
 _putchar('\n');
