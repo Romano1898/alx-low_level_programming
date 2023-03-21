@@ -30,7 +30,6 @@ _putchar('0' + (c));
 _putchar(',');
 _putchar(' ');
 }
-}
 if (c > 9)
 {
 _putchar('0' + (c / 10));
@@ -42,6 +41,7 @@ if (c > 9 && b == 9)
 {
 _putchar('0' + (c / 10));
 _putchar('0' + (c % 10));
+}
 }
 }
 _putchar('\n');
