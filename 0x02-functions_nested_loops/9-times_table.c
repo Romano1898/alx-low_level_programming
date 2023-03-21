@@ -28,7 +28,6 @@ else if (c <= 9 && d > 9)
 {
 _putchar('0' + (c));
 _putchar(',');
-_putchar(' ');
 }
 else if (c > 9 && b != 9)
 {
