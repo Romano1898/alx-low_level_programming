@@ -1,5 +1,4 @@
 #include "main.h"
-11;rgb:0000/0000/0000
 /**
  * jack_bauer - Prints every minute in a 24 hour cycle
  *
@@ -47,4 +46,4 @@ _putchar('\n');
 }
 }
 }
-}
+
