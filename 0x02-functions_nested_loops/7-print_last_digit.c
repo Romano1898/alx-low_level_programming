@@ -13,12 +13,10 @@ int f = n % 10;
 if (f < 0)
 {
 int m = -1 * f;
-int n = m * 11;
-return (n);
+return (m);
 }
 else
 {
-int a = f * 11;
-return (a);
+return (f);
 }
 }
