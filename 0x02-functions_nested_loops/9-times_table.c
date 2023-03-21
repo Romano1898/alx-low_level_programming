@@ -1,5 +1,5 @@
 #include "main.h"
-
+0;276;0c
 /**
  * times_table - Prints 9 times table from 0
  */
@@ -17,7 +17,6 @@ if (c <= 9 && b != 9)
 {
 _putchar('0' + (c));
 _putchar(',');
-_putchar(' ');
 _putchar(' ');
 }
 else if (c <= 9 && b == 9)
