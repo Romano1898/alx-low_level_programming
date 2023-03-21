@@ -14,7 +14,7 @@ for (c = 0; c <= 5; c++)
 {
 for (d = 0; d <= 9; d++)
 {
-if (b < 10)
+while (b < 10)
 {
 _putchar('0');
 }
