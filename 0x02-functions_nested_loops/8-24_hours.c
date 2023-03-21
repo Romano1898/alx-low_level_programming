@@ -14,10 +14,17 @@ for (c = 0; c <= 5; c++)
 {
 for (d = 0; d <= 9; d++)
 {
-while (b < 10)
+if (b < 10)
 {
 _putchar('0');
+_putchar('0' + b);
+_putchar(':');
+_putchar('0' + c);
+_putchar('0' + d);
+_putchar('\n');
 }
+if(b > 10)
+{
 _putchar('0' + b);
 _putchar(':');
 _putchar('0' + c);
