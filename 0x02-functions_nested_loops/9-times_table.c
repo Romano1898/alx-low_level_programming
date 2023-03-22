@@ -16,7 +16,7 @@ for (b = 1; b <= 9; b++)
 {
 if (c < 9)
 {
-_putchar(('0' + c);
+_putchar(('0' + c));
 _putchar(',');
 _putchar(' ');
 }
@@ -28,5 +28,6 @@ _putchar(',');
 _putchar(' ');
 }
 _putchar('\n');
+}
 }
 }
