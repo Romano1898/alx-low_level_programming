@@ -27,7 +27,7 @@ _putchar('0' + (c % 10));
 _putchar(',');
 _putchar(' ');
 }
-_putchar('\n');
 }
+_putchar('\n');
 }
 }
