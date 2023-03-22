@@ -2,7 +2,7 @@
 
 /**
 * print_to_98 - prints natural numbers to 98
-* 
+*
 * @n: The number to start counting from
 */
 
