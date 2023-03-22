@@ -12,7 +12,7 @@ for (a = 0; a <= 9; a++)
 for (b = 0; b <= 9; b++)
 {
 c = a * b;
-d = ((1 + a) * b);
+d = ((1 + a + c);
 if (c <= 9 && b != 9)
 {
 _putchar('0' + (c));
@@ -34,6 +34,7 @@ else if (c > 9 && b != 9)
 _putchar('0' + (c / 10));
 _putchar('0' + (c % 10));
 _putchar(',');
+_putchar(' ');
 }
 else if (c > 9 && b == 9)
 {
