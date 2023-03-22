@@ -6,46 +6,15 @@
 
 void times_table(void)
 {
-int a, b, c, d;
+int a, b, c;
 for (a = 0; a <= 9; a++)
 {
-for (b = 0; b <= 9; b++)
+_putchar('0');
+for (b = 1; b <= 9; b++)
 {
-c = a * b;
-d = (1 + a + c);
-if (c <= 9 && b != 9)
-{
-_putchar('0' + (c));
+_putchar(('0' + (a * b));
 _putchar(',');
 _putchar(' ');
-_putchar(' ');
-}
-else if (c <= 9 && b == 9)
-{
-_putchar('0' + (c));
-}
-else if (c <= 9 && d > 9)
-{
-_putchar('0' + (c));
-_putchar(',');
-}
-else if (c > 9 && b != 9)
-{
-_putchar('0' + (c / 10));
-_putchar('0' + (c % 10));
-_putchar(',');
-_putchar(' ');
-}
-else if (c > 9 && b == 9)
-{
-_putchar('0' + (c / 10));
-_putchar('0' + (c % 10));
-}
-else
-{
-continue;
-}
 }
 _putchar('\n');
-}
 }
