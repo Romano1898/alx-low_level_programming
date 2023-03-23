@@ -3,7 +3,6 @@
 /**
 * print_most_numbers - Prints numbers from zero to nine, excluding 2 and 4.
 *
-* Return: 0 Always success
 */
 
 void print_most_numbers(void)
