@@ -14,9 +14,8 @@ for (num = 0; num <= 9; ++num)
 {
 if ((num != 2) && (num != 4))
 {
-__putchar('0' + num);
+_putchar('0' + num);
 }
 }
 _putchar('\n');
-return (0);
 }
