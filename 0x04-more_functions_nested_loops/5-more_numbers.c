@@ -7,23 +7,16 @@
 
 void more_numbers(void)
 {
-int num;
-int count;
-for (count = 0; count <= 10; ++count)
+  char num[20] = [01234567891011121314];
+  int i;
+  int f;
+
+for(f = 0; f < 10; f++
 {
-for (num = 0; num <= 14; ++num)
+for(i = 0; i < 20; i++)
 {
-if (num > 9)
-{
-_putchar((num / 10) + '0');
-_putchar((num % 10) + '0');
+_putchar('0' + (num[i]);
 }
-else
-{
-_putchar('0' + num);
+ _putchar('\n');
 }
-}
-_putchar('\n');
-}
-_putchar('\n');
 }
