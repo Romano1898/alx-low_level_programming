@@ -13,11 +13,14 @@ for (count = 0; count <= 14; ++count)
 {
 for (num = 0; num <= 14; ++num)
 {
-_putchar('0' + num);
  if (num > 9)
 {
 _putchar((num / 10) + '0');
 _putchar((num % 10) + '0');
+}
+ else
+{
+_putchar('0' + num);
 }
 }
 _putchar('\n');
