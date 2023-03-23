@@ -15,8 +15,8 @@ for (f = 0; f < 10; f++)
 {
 for (i = 0; i < 20; i++)
 {
-  _putchar(num[i]);
-}
+_putchar(num[i]);
 _putchar('\n');
+}
 }
 }
