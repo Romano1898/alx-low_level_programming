@@ -7,6 +7,6 @@
 */
 int main(void)
 {
-print_line(8);
+print_diagonal(8);
 return (0);
 }
