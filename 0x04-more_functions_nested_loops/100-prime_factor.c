@@ -1,3 +1,11 @@
+#include <stdio.h>
+
+/**
+* main - Entry point
+*
+* Return: 0 (Success)
+*/
+
 int main(void)
 {
 	unsigned long n = 612852475143;
