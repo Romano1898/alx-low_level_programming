@@ -6,34 +6,40 @@
 * @n: number specified
 */
 
-void print_times_table (int n)
-int num, mult, product;
+void print_times_table(int n)
+{
+	int a, b, c;
 
-if (n >= 0 && n <= 15)
+	if (n >= 0 && n <= 15)
 {
-for (num = 0; num <= n; num++)
+	for (a = 0; a <= n; a++)
 {
-_putchar('0');
-for (mult = 1; mult <= n; mult++)
+	_putchar('0');
+	for (b = 1; b <= n; b++)
 {
-_putchar(',');
-_putchar(' ');
-product = num * mult;
-if (product <= 99)
-_putchar(' ');
-if (product <= 9)
-_putchar(' ');
-if (product >= 100)
+	c = (a * b);
+	_putchar(',');
+	_putchar(' ');
+	if (c < 10)
 {
-_putchar((product / 100) + '0');
-_putchar(((product / 10)) % 10 + '0');
+	_putchar(' ');
+	_putchar(' ');
+	_putchar(c + '0');
 }
-else if (product <= 99 && product >= 10)
+	else if (c < 100)
 {
-_putchar((product / 10) + '0');
+	_putchar(' ');
+	_putchar((c / 10) + '0');
+	_putchar((c % 10) + '0');
 }
-_putchar((product % 10) + '0');
+	else
+{
+	_putchar(((c / 100) % 10) + '0');
+	_putchar(((c / 10) % 10) + '0');
+	_putchar((c % 10) + '0');
 }
-_putchar('\n');
+}
+	_putchar('\n');
+}
 }
 }
