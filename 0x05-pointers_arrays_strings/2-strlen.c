@@ -12,7 +12,7 @@ int len;
 
  len = 0;
 
-while (s[i] != '\0')
+while (*s[i] != '\0')
 {
 len++;
 }
