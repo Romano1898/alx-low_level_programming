@@ -20,7 +20,7 @@ i = a / 2;
 
 if (i % 2 > 0)
 {
-for (c = i; c < a - 1; c++)
+for (c = i; c < a; c++)
 {
 _putchar(str[c]);
 }
@@ -32,4 +32,5 @@ for (c = i; c < a; c++)
 _putchar(str[c]);
 }
 }
+_putchar('\n');
 }
