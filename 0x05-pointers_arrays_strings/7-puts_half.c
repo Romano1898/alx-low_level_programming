@@ -10,7 +10,7 @@ void puts_half(char *str)
 {
 int a = 0;
 int i = 0;
-int c = 0;
+int c;
 
 while (str[a] != '\0')
 {
@@ -20,14 +20,14 @@ i = a / 2;
 
 if (i % 2 > 0)
 {
-for (c; c < i - 1; c++)
+for (c = 0; c < i - 1; c++)
 {
 _putchar(str[c]);
 }
 }
 else
 {
-for (c; c < i; c++)
+for (c = 0; c < i; c++)
 {
 _putchar(str[c]);
 }
