@@ -20,14 +20,14 @@ i = a / 2;
 
 if (i % 2 > 0)
 {
-for (c = 0; c < i - 1; c++)
+for (c = i; c < a - 1; c++)
 {
 _putchar(str[c]);
 }
 }
 else
 {
-for (c = 0; c < i; c++)
+for (c = i; c < a; c++)
 {
 _putchar(str[c]);
 }
