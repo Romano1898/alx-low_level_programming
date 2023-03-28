@@ -7,16 +7,15 @@
  *@src: source string
  *
  * Return: (the pointer to dest)
- *
  */
-char _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
-	char *originaldest = dest;
+	char *originaldest == dest;
 
 	while (*src)
 {
 	*dest++ = *src++;
-	}
+}
 	*dest = '\0';
 	return (originaldest);
 }
