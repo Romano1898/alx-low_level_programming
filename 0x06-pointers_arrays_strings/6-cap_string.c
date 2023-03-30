@@ -6,7 +6,7 @@
  * Return: Uppercase stringz
  */
 
-char *string_toupper(char *str)
+char *cap_string(char *str)
 {
 	int i = 0;
 
