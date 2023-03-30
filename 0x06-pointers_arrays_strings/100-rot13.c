@@ -19,6 +19,7 @@ for (count = 0; count < 52; count++)
 if (str[k] == alphabet[count])
 {
 str[k] = rot13key[count];
+break;
 }
 }
 k++;
