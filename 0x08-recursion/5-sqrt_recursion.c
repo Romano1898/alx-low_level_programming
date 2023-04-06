@@ -41,7 +41,8 @@ if (n < 0)
 {
 return (-1);
 }
-int guess = n / 2;
+int guess;
+guess = n / 2;
 int result = searcher(n, guess);
 if (result == -1)
 {
