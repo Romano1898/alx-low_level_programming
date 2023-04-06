@@ -28,12 +28,12 @@ return (primedet(n, i + 1));
 }
 
 /**
-* is_prime - Checks if number is 1 or not
+* is_prime_number - Checks if number is 1 or not
 * @n: Input integer
 * Return: Pushes to primedet
 */
 
-int is_prime(int n)
+int is_prime_number(int n)
 {
 if (n <= 1)
 {
