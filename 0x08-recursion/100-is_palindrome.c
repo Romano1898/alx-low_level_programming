@@ -57,8 +57,8 @@ int getlen(char *str, int len)
 int is_palindrome(char *s)
 {
 int len;
+char *end;
 len  = getlen(s, 0);
- char *end;
 *end =  s + len - 1;
 return (checkpalindrome(s, end));
 }
