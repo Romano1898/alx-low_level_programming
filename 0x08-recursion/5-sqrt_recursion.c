@@ -2,7 +2,7 @@
 
 /**
  * searcher - Guesses square root of n.
- * sqrt_recursion - Determines square root of a number.
+ * _sqrt_recursion - Determines square root of a number.
  * @guess: Is the initial guess of the square root of n. Is n / 2.
  * @n: Input integer
  * Return: guesses within and out of the error tolerance.
@@ -31,11 +31,11 @@ return (searcher(n, new_guess));
 }
 
 /**
- * sqrt_recursion - Determines square root of a number.
+ * _sqrt_recursion - Determines square root of a number.
  * @n: Input integer
  * Return: Square root of n
  */
-int sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 {
 int guess;
 int result;
