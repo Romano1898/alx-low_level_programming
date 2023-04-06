@@ -37,13 +37,14 @@ return (searcher(n, new_guess));
  */
 int sqrt_recursion(int n)
 {
+int guess;
+int result;
+guess = n / 2;
+result = searcher(n, guess);
 if (n < 0)
 {
 return (-1);
 }
-int guess;
-guess = n / 2;
-int result = searcher(n, guess);
 if (result == -1)
 {
 return (-1);
