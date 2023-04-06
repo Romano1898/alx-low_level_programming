@@ -8,6 +8,6 @@ int searcher(int n, int guess);
 int _sqrt_recursion(int n);
 int primedet(int, int);
 int is_prime_number(int n);
-int is_palindrome(char);
+int is_palindrome(char *s);
 int getlen(char *str, int len);
 int checkpalindrome(char *start, char *end);
