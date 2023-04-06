@@ -10,11 +10,11 @@
 
 int searcher(int n, int guess)
 {
-guess = n / 2;
-int error;
-error= 1;
 int new_guess;
-new guess = (guess + n / guess) / 2;
+int error;
+error = 1;
+guess = n / 2;
+new_guess = (guess + n / guess) / 2;
 if (new_guess < guess)
 {
 return (-1);
