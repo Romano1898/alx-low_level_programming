@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /**
@@ -12,6 +11,6 @@
 
 int main(int argc, char *argv[] __attribute__((unused)))
 {
-printf("%d\n", argc);
+printf("%s", argc);
 return (0);
 }
