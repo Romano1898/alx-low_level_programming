@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
 
 /**
  * *create_array - Creates array of chars and initialises.
@@ -19,7 +21,7 @@ if (size == 0)
 return ('\0');
 }
 array = malloc(sizeof(char) * size);
-if (array == '\0')
+if (array == NULL)
 {
 return ('\0');
 }
