@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 
 /**
- * array iterator - Displays each element of an array given as a pointer
+ * array_iterator - Displays each element of an array given as a pointer
  *
  * @array: pointer to array
  * @size: size of array
