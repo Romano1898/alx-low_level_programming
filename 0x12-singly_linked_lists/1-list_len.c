@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * list len - returns the number of elements in a linked list
+ * list_len - returns the number of elements in a linked list
  *
  * @h: head of list
  *
