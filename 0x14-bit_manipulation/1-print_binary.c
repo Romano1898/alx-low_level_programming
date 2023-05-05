@@ -8,9 +8,19 @@
 
 void print_binary(unsigned long int n)
 {
-if (n > 1)
+unsigned long int bit, mask = 1UL << ((sizeof(unsigned long int) * 8) - 1);
+int i;
+for (i = 0; i < (sizeof(unsigned long int) * 8); i++)
 {
-print_binary(n >> 1);
-_putchar((n & 1) + '0');
+bit = (n & mask) != 0;
+mask >>= 1;
+if (bit)
+{
+_putchar('1');
+}
+else
+{
+_putchar('0');
+}
 }
 }
