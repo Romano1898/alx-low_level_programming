@@ -24,5 +24,9 @@ num <<= 1;
 num += b[i] - '0';
 i++;
 }
+else
+{
+return (0);
+}
 return (num);
 }
