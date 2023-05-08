@@ -20,20 +20,20 @@ return (0);
 
 buf = malloc(sizeof(char) * letters);
 
-if (buffer == NULL)
+if (buf == NULL)
 return (0);
 
 o = open(filename, O_RDONLY);
-r = read(o, buffer, letters);
-w = write(STDOUT_FILENO, buffer, r);
+r = read(o, buf, letters);
+w = write(STDOUT_FILENO, buf, r);
 
 if (o == -1 || r == -1 || w == -1 || w != r)
 {
-free(buffer);
+free(buf);
 return (0);
 }
 
-free(buffer);
+free(buf);
 close(o);
 
 return (w);
