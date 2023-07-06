@@ -5,9 +5,8 @@
  *
  * @n: number to be printed in binary
  *
- * Return: (no return)
- *
  */
+
 void print_binary(unsigned long int n)
 {
 	if (n > 1)
