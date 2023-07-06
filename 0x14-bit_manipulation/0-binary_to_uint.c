@@ -1,6 +1,14 @@
 #include "main.h"
 #include <stdlib.h>
 
+/**
+ * binary_to_uint - prints unsigned int representation of binary input
+ *
+ * @b: Binary input
+ *
+ * Return: Unsigned int
+ */
+
 unsigned int binary_to_uint(const char *b)
 {
 unsigned int num = 0;
