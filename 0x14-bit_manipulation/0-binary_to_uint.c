@@ -19,7 +19,7 @@ return (0);
 
 while (b != '\0')
 {
-if (b[i] == '0' || b[i] == '1')
+while (b[i] == '0' || b[i] == '1')
 {
 num <<= 1;
 num += b[i] - '0';
