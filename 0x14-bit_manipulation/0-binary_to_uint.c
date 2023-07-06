@@ -19,11 +19,15 @@ return (0);
 
 while (b != '\0')
 {
-while (b[i] == '0' || b[i] == '1')
+if (b[i] == '0' || b[i] == '1')
 {
 num <<= 1;
 num += b[i] - '0';
 i++;
+}
+else
+{
+return (0);
 }
 }
 return (num);
